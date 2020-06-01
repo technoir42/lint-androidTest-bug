@@ -11,6 +11,10 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
     }
+
+    lintOptions {
+        checkTestSources true
+    }
 }
 
 dependencies {
